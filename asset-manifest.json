@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/corporatetrainingpage/static/css/main.85b10d99.css",
+    "main.js": "/corporatetrainingpage/static/js/main.28240f47.js",
+    "static/js/488.7e101b22.chunk.js": "/corporatetrainingpage/static/js/488.7e101b22.chunk.js",
+    "static/media/Corporatebanner.jpg": "/corporatetrainingpage/static/media/Corporatebanner.e12f71c2617737b0ff06.jpg",
+    "static/media/Course3.png": "/corporatetrainingpage/static/media/Course3.a26cc5d39191972b90c0.png",
+    "static/media/Course2.png": "/corporatetrainingpage/static/media/Course2.059deb0c59a8e27cbadf.png",
+    "static/media/Course1.png": "/corporatetrainingpage/static/media/Course1.172dde0fa1dc306e3dca.png",
+    "static/media/DNATA.png": "/corporatetrainingpage/static/media/DNATA.53318ae5afe67d7a50ad.png",
+    "static/media/DPWorld.png": "/corporatetrainingpage/static/media/DPWorld.e758659a072ba5096b0c.png",
+    "static/media/AIRASTANA.png": "/corporatetrainingpage/static/media/AIRASTANA.c3462972c1c178576026.png",
+    "static/media/ADNOC.png": "/corporatetrainingpage/static/media/ADNOC.b173278d84799ed88d20.png",
+    "static/media/MOI Bahrain.jpg": "/corporatetrainingpage/static/media/MOI Bahrain.48d7bccd235f3422eff3.jpg",
+    "static/media/Logo2.png": "/corporatetrainingpage/static/media/Logo2.731dfe8fe8f8ba5e024e.png",
+    "static/media/INTERVEL.png": "/corporatetrainingpage/static/media/INTERVEL.1ac247f6995e3b236d78.png",
+    "static/media/Du.png": "/corporatetrainingpage/static/media/Du.8ddc67123a9a586c7b9e.png",
+    "static/media/ALMASAOOD.png": "/corporatetrainingpage/static/media/ALMASAOOD.9cab8288bfd0a393fde2.png",
+    "static/media/Legoland.png": "/corporatetrainingpage/static/media/Legoland.b5f22b317ecaa64c7def.png",
+    "static/media/Dubal.jpg": "/corporatetrainingpage/static/media/Dubal.a915082fa9cc8c284d55.jpg",
+    "static/media/jafza.png": "/corporatetrainingpage/static/media/jafza.26d56dbab89a15197843.png",
+    "static/media/WingsWay logo.png": "/corporatetrainingpage/static/media/WingsWay logo.2d38dac4d59df4056f8d.png",
+    "static/media/Upskillanddriveresults.png": "/corporatetrainingpage/static/media/Upskillanddriveresults.8796792abb4bf5ffc35c.png",
+    "static/media/NGI.png": "/corporatetrainingpage/static/media/NGI.09aeb150de89fcebb4a3.png",
+    "static/media/EMIRATES.png": "/corporatetrainingpage/static/media/EMIRATES.b8eaef0cbaf287885251.png",
+    "static/media/Footerlogo.png": "/corporatetrainingpage/static/media/Footerlogo.095b840dc5c1b28b4e8b.png",
+    "static/media/DSV.jpeg": "/corporatetrainingpage/static/media/DSV.3b673b996194ff96337c.jpeg",
+    "static/media/SNOC.jpg": "/corporatetrainingpage/static/media/SNOC.4f6dde4f5cb0e6cfc5f7.jpg",
+    "static/media/logo.svg": "/corporatetrainingpage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/slick.svg": "/corporatetrainingpage/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/corporatetrainingpage/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/corporatetrainingpage/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/corporatetrainingpage/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/corporatetrainingpage/index.html",
+    "main.85b10d99.css.map": "/corporatetrainingpage/static/css/main.85b10d99.css.map",
+    "main.28240f47.js.map": "/corporatetrainingpage/static/js/main.28240f47.js.map",
+    "488.7e101b22.chunk.js.map": "/corporatetrainingpage/static/js/488.7e101b22.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85b10d99.css",
+    "static/js/main.28240f47.js"
+  ]
+}
