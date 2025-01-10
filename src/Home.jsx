@@ -38,7 +38,6 @@ import course1 from "./Images/Course1.png";
 import course2 from "./Images/Course2.png";
 import course3 from "./Images/Course3.png";
 
-
 import {
   faCheck,
   faCircleCheck,
@@ -428,8 +427,8 @@ export default function Home() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     autoplay: false,
     cssEase: "linear",
     autoplaySpeed: 4000,
@@ -439,8 +438,8 @@ export default function Home() {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 3,
+          slidesToScroll: 3,
           infinite: true,
           dots: true,
           speed: 300,
@@ -900,9 +899,9 @@ export default function Home() {
           </Slider>
         </div>
 
-        <div className="container mt-5 pt-5 m-0 p-0 m-auto text-white">
+        <div className="container-fluid m-0 p-0 mt-5 pt-5   text-white">
           <div
-            className={`row  rounded-4  m-auto text-white p-3 slide-in-left  ${
+            className={`row    text-white p-3 slide-in-left  ${
               hasViewedSlide.myElement ? "animate-enquire" : ""
             }`}
             style={{ backgroundColor: "rgb(4, 18, 113)" }}
@@ -930,93 +929,63 @@ export default function Home() {
               </h1>
             </div>
           </div>
-          <div >
-          <Slider
-            {...settings2}
-            className="m-0 p-0 col-12 col-md-8 col-lg-8 m-auto"
-          >
-            <div>
-              <div className="text-center">
-                <img src={course1} alt="Human Resource Managment Image" />
-                <p className=" mt-3 text-center">
-                Equip your HR team with essential skills in labour laws, HR policies, digital transformation, workforce planning, ROI measurement, and more.
-                </p>
+          <div>
+            <Slider
+              {...settings2}
+              className="m-0 p-0 col-12 col-md-12 col-lg-12 m-auto mt-4"
+            >
+              <div>
+                <div className="d-flex flex-column align-items-center text-center border border-light p-2 ms-2">
+                  <img
+                    src={course1}
+                    alt="Human Resource Management Image"
+                    className="img-fluid"
+                  />
+                  <p className="mt-3 text-center">
+                    Equip your HR team with essential skills in labour laws, HR
+                    policies, digital transformation, workforce planning, ROI
+                    measurement, and more.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div>
-            <div className="text-center">
-                <img src={course1} alt="Human Resource Managment Image" />
-                <p className=" mt-3 text-center">
-                Equip your HR team with essential skills in labour laws, HR policies, digital transformation, workforce planning, ROI measurement, and more.
-                </p>
-              </div>
-            </div>
-            <div>
-            <div className="text-center">
-                <img src={course1} alt="Human Resource Managment Image" />
-                <p className=" mt-3 text-center">
-                Equip your HR team with essential skills in labour laws, HR policies, digital transformation, workforce planning, ROI measurement, and more.
-                </p>
-              </div>
-            </div>
-            <div>
-              <div className="p-3 shadow-sm border border-light rounded-3 ms-md-2 ms-lg-4 ms-2 mt-2 testimonialresponsive-div">
-                <h3 className="text-center mt-5">Mohammed Anwar</h3>
-                <p className="text-center">
-                  I completed the Passenger Ground Service course at WingsWay
-                  Training Institute in Dubai and had a great experience. The
-                  instructors were knowledgeable, and the curriculum was
-                  practical, covering everything I needed to know for the
-                  industry. The staff were also helpful and supportive
-                  throughout the process. I highly recommend this institute for
-                  anyone looking to enter aviation or related fields.
-                </p>
-              </div>
-            </div>
-            <div>
-              <div className="p-3 shadow-sm border border-light rounded-3 ms-lg-4 mb-1 ms-2 mt-2 testimonialresponsive-div">
-                <h3 className="text-center mt-md-5 mt-5">Prashnaa Magar</h3>
-                <p className="text-center">
-                  {" "}
-                  I had an amazing experience at WingsWay Training Institute.
-                  The instructors were highly knowledgeable and passionate about
-                  their subjects, making learning both engaging and rewarding.
-                  Ms. Tina was so sweet and supportive. The curriculum at
-                  WingsWay Training Institute is well-designed and
-                  comprehensive, covering all the necessary topics and providing
-                  practical skills. Overall, my time at WingsWay Training
-                  Institute exceeded my expectations, and I would highly
-                  recommend it to anyone looking for best Cabin Crew Courses,
-                  PGSA courses, and a supportive learning environment.
-                </p>
-              </div>
-            </div>
 
-            <div>
-              <div className="p-3 shadow-sm border border-light rounded-3 ms-lg-4 mb-1 ms-2 mt-2 testimonialresponsive-div">
-                <h3 className="text-center mt-md-5  mt-5">Wanu</h3>
-
-                <p className="text-center">
-                  {" "}
-                  Did my PGSA course from WingsWay and the amount of love and
-                  support I got from miss Tina, miss Sheetal, and the entire
-                  team of WingsWay was out of the world. They helped me with
-                  each and everything. I also had the opportunity to visit
-                  Fujairah aviation academy where we did our aircraft visit and
-                  learnt how to become an ATC controller, a pilot as well as an
-                  AME. We got a tour of the hangar as well.
-                </p>
-                <p className="text-center">
-                  {" "}
-                  Blessed to have such great trainers who are so dedicated towards building our future. ❤️
-                </p>
+              <div>
+                <div className="d-flex flex-column align-items-center text-center border border-light p-2 ms-2">
+                  <img
+                    src={course1}
+                    alt="Human Resource Management Image"
+                    className="img-fluid"
+                    // style={{ maxWidth: "100%", height: "auto" }}
+                  />
+                  <p className="mt-3 text-center">
+                    Equip your HR team with essential skills in labour laws, HR
+                    policies, digital transformation, workforce planning, ROI
+                    measurement, and more.
+                  </p>
+                </div>
               </div>
-            </div>
-          </Slider>
+
+              <div>
+                <div className="d-flex flex-column align-items-center text-center border border-light p-2 ms-2">
+                  <img
+                    src={course1}
+                    alt="Human Resource Management Image"
+                    className="img-fluid"
+                    // style={{ maxWidth: "100%", height: "auto" }}
+                  />
+                  <p className="mt-3 text-center">
+                    Equip your HR team with essential skills in labour laws, HR
+                    policies, digital transformation, workforce planning, ROI
+                    measurement, and more.
+                  </p>
+                </div>
+              </div>
+             
+            </Slider>
           </div>
         </div>
 
-        <div className="container mt-5 border border-white">
+        <div className="container mt-5 border border-white ">
           {/* <div className="row "> */}
           <div
             className={`row rounded-4 slide-in-left   ${
@@ -1031,7 +1000,6 @@ export default function Home() {
                 <span className="fw-bold  text-primary"> Course</span>
               </h1>
             </div>
-          
 
             <div className="col-12 col-lg-5 rounded-3 mt-2 mt-lg-4 rounded-3 shadow p-4 small-device-text-wrap">
               <p className="text-center mt-lg-3">
