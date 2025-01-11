@@ -273,3 +273,193 @@ height: 820px;
 }
 
 
+.testimonialresponsive-div {
+  width: 95%;
+  height: 550px; /* Default height for large devices */
+}
+
+@media (max-width: 1024px) {
+  /* For medium devices */
+  .testimonialresponsive-div {
+    height: 460px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For medium devices */
+  .testimonialresponsive-div {
+    height: 480px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For small devices */
+  .testimonialresponsive-div {
+    height: 480px;
+  }
+  
+}
+
+@media (max-width: 376px) {
+  /* For small devices */
+  .testimonialresponsive-div {
+    height: 500px;
+  }
+  
+}
+
+@media (max-width: 320px) {
+  /* For small devices */
+  .testimonialresponsive-div {
+    height: 460px;
+  }
+  
+}
+
+
+.Enquirebutton {
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+  color: white !important;
+  background-color: #F46A2F !important;
+  border: 1px solid #F46A2F !important;
+  /* padding: 20px !important; */
+
+}
+
+button.Enquirebutton:hover {
+  background-color: white !important;
+  color: #F46A2F!important;
+  border: 1px solid #F46A2F
+}
+
+.responsiveAward-img {
+  width: 100%; /* Default for small devices */
+}
+
+@media (min-width: 992px) { /* For large devices */
+  .responsiveAward-img {
+    width: 70%;
+  }
+}
+
+.responsiveInvest-img {
+  width: 100% !important; /* Default: Small devices (<=992px) */
+}
+
+@media (min-width: 992px) { 
+  .responsiveInvest-img {
+    width: 80% !important; /* Large devices (>=992px) */
+  }
+}
+
+
+.Trainingsresponsive-div {
+  width: 95%;
+  height: 1100px; /* Default height for large devices */
+}
+
+@media (max-width: 1440px) {
+  /* For medium devices */
+  .Trainingsresponsive-div {
+    height: 1100px;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* For medium devices */
+  .Trainingsresponsive-div {
+    height: 460px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For medium devices */
+  .Trainingsresponsive-div {
+    height: 480px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For small devices */
+  .Trainingsresponsive-div {
+    height: 480px;
+  }
+  
+}
+
+@media (max-width: 376px) {
+  /* For small devices */
+  .Trainingsresponsive-div {
+    height: 500px;
+  }
+  
+}
+
+@media (max-width: 320px) {
+  /* For small devices */
+  .Trainingsresponsive-div {
+    height: 460px;
+  }
+  
+}
+
+
+.reviewresponsive-div {
+  width: 100%;
+  height: 100px; /* Default height for large devices */
+  margin: 0 auto; /* Center horizontally */
+  display: flex; /* Flexbox for content alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+@media (max-width: 2560px) {
+  .reviewresponsive-div {
+    width: 70%;
+    height: 600px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .reviewresponsive-div {
+    width: 70%;
+    height: 600px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .reviewresponsive-div {
+    width: 70%;
+
+    height: 440px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reviewresponsive-div {
+    width: 70%;
+    height: 330px;
+  }
+}
+
+@media (max-width: 576px) {
+  .reviewresponsive-div {
+    width: 100%;
+    height: 380px;
+  }
+}
+
+@media (max-width: 376px) {
+  .reviewresponsive-div {
+    width: 100%;
+    height: 330px;
+  }
+}
+
+@media (max-width: 321px) {
+  .reviewresponsive-div {
+    width: 100%;
+
+    height: 260px;
+  }
+}

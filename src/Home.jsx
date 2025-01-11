@@ -37,6 +37,46 @@ import SNOC from "./Images/SNOC.jpg";
 import course1 from "./Images/Course1.png";
 import course2 from "./Images/Course2.png";
 import course3 from "./Images/Course3.png";
+import course4 from "./Images/Course4.png";
+import course5 from "./Images/Course5.png";
+import course6 from "./Images/Course6.png";
+import course7 from "./Images/Course7.png";
+import course8 from "./Images/Course8.png";
+import course9 from "./Images/Course9.png";
+import course10 from "./Images/Course10.png";
+import course11 from "./Images/Course11.png";
+import award from "./Images/award.jpg";
+import invest from "./Images/Invest.png";
+import CorporateTraining1 from "./Images/CorporateTranining1.jpg";
+import CorporateTraining2 from "./Images/CorporateTranining2.jpg";
+import CorporateTraining3 from "./Images/CorporateTranining3.jpg";
+import CorporateTraining4 from "./Images/CorporateTranining4.jpg";
+import CorporateTraining5 from "./Images/CorporateTranining5.jpg";
+import CorporateTraining6 from "./Images/CorporateTranining6.jpg";
+import CorporateTraining7 from "./Images/CorporateTranining7.jpg";
+import CorporateTraining8 from "./Images/CorporateTranining8.jpg";
+import CorporateTraining9 from "./Images/CorporateTraining9.jpg";
+import CorporateTraining10 from "./Images/CorporateTraining10.jpg";
+import CorporateTraining11 from "./Images/CorporateTraining11.jpg";
+import CorporateTraining12 from "./Images/CorporateTraining12.jpg";
+import CorporateTraining13 from "./Images/CorporateTraining13.jpg";
+import CorporateTraining14 from "./Images/CorporateTraining14.jpg";
+import CorporateTraining15 from "./Images/CorporateTraining15.jpg";
+import CorporateTraining16 from "./Images/CorporateTraining16.jpg";
+import CorporateTraining17 from "./Images/CorporateTraining17.jpg";
+import CorporateTraining18 from "./Images/CorporateTraining18.jpg";
+import CorporateTraining19 from "./Images/CorporateTraining19.jpg";
+import CorporateTraining20 from "./Images/CorporateTraining20.jpg";
+import CorporateTraining21 from "./Images/CorporateTraining21.jpg";
+import CorporateTraining22 from "./Images/CorporateTraining22.jpg";
+import CorporateTraining23 from "./Images/CorporateTraining23.jpg";
+import CorporateTraining24 from "./Images/CorporateTraining24.jpg";
+import CorporateTraining25 from "./Images/CorporateTraining25.jpg";
+import Testimonial1 from "./Images/Testimonial1.png";
+import Testimonial2 from "./Images/Testimonial2.png";
+import Testimonial3 from "./Images/Testimonial3.png";
+import Testimonial4 from "./Images/Testimonial4.png";
+import Testimonial5 from "./Images/Testimonial5.png";
 
 import {
   faCheck,
@@ -88,6 +128,8 @@ export default function Home() {
   const [formData, setFormData] = useState(null); // State to store submitted data
   const [phoneNumber, setPhoneNumber] = useState(""); // State for phone number input
   const [countryCode, setCountryCode] = useState("+971"); // Default country code
+  const { Option } = Select;
+
 
   const onChange = (key) => {
     console.log(key);
@@ -276,7 +318,7 @@ export default function Home() {
   }
     .slick-dots {
     position: absolute;
-    bottom: -30px;
+    bottom: -60px;
     display: block;
     width: 100%;
     padding: 0;
@@ -448,6 +490,48 @@ export default function Home() {
       {
         breakpoint: 768,
         settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+          speed: 300,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          speed: 300,
+        },
+      },
+    ],
+  };
+
+  const settings3 = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    cssEase: "linear",
+    autoplaySpeed: 4000,
+    // initialSlide: 0,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+          speed: 300,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
@@ -460,6 +544,50 @@ export default function Home() {
           slidesToShow: 1,
           slidesToScroll: 1,
           speed: 300,
+          dots: false,
+        },
+      },
+    ],
+  };
+
+  const settings4 = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    cssEase: "linear",
+    autoplaySpeed: 4000,
+    // initialSlide: 0,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+          speed: 300,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+          speed: 300,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          speed: 300,
+          dots: false,
         },
       },
     ],
@@ -509,7 +637,7 @@ export default function Home() {
                   />
 
                   <h1
-                    className="text-white "
+                    className="text-white ms-lg-5"
                     style={{
                       fontSize: "55px",
                       fontWeight: "700",
@@ -525,6 +653,7 @@ export default function Home() {
                       wordBreak: "break-word",
                       color: "rgb(7, 33, 164)",
                     }}
+                    className="ms-lg-5"
                   >
                     TRAININGS
                   </h1>
@@ -625,6 +754,43 @@ export default function Home() {
                           // maxLength={10}
                         />
                       </Space.Compact>
+                    </Form.Item>
+
+                    <Form.Item
+                      label="Organisation Name"
+                      name="organisationName"
+                      className="form-item text-white"
+                      rules={[
+                        {
+                          required: true,
+                          message: "Please input your organisation name!",
+                        },
+                      ]}
+                    >
+                      <Input placeholder="Enter your organisation name" />
+                    </Form.Item>
+
+                    <Form.Item
+                      label="Corporate Trainings"
+                      name="traning"
+                      className="form-item text-white"
+                      rules={[
+                        {
+                          required: true,
+                          message: "Please select your option!",
+                        },
+                      ]}
+                    >
+                      <Select placeholder="Select your option">
+                        {/* <Option value="cilt_level_1">CILT Level 1</Option> */}
+                        <Option value="Human Resources Programs">Human Resources Programs</Option>
+                        <Option value="Leadership & Management Programs">Leadership & Management Programs</Option>
+                        {/* <Option value="cilt_level_4">CILT Level 4</Option> */}
+                        <Option value="Skill Development Programs">Skill Development Programs</Option>
+                        <Option value="Team Building Programs">Team Building Programs</Option>
+                        <Option value="Banking, Finance & Treasury Programs">Banking, Finance & Treasury Programs</Option>
+
+                      </Select>
                     </Form.Item>
 
                     <Form.Item>
@@ -901,7 +1067,7 @@ export default function Home() {
 
         <div className="container-fluid m-0 p-0 mt-5 pt-5   text-white">
           <div
-            className={`row    text-white p-3 slide-in-left  ${
+            className={`row text-white p-3 slide-in-left  ${
               hasViewedSlide.myElement ? "animate-enquire" : ""
             }`}
             style={{ backgroundColor: "rgb(4, 18, 113)" }}
@@ -928,801 +1094,697 @@ export default function Home() {
                 Our Corporate Training Programs
               </h1>
             </div>
-          </div>
-          <div>
-            <Slider
-              {...settings2}
-              className="m-0 p-0 col-12 col-md-12 col-lg-12 m-auto mt-4"
-            >
-              <div>
-                <div className="d-flex flex-column align-items-center text-center border border-light p-2 ms-2">
-                  <img
-                    src={course1}
-                    alt="Human Resource Management Image"
-                    className="img-fluid"
-                  />
-                  <p className="mt-3 text-center">
-                    Equip your HR team with essential skills in labour laws, HR
-                    policies, digital transformation, workforce planning, ROI
-                    measurement, and more.
-                  </p>
+            <div>
+              <Slider
+                {...settings2}
+                className="m-0 p-0 col-12 col-md-12 col-lg-12 m-auto mt-4"
+              >
+                <div>
+                  <div className="d-flex flex-column align-items-center text-center  border border-3 border-light rounded-3 p-2 ms-2 testimonialresponsive-div">
+                    <img
+                      src={course1}
+                      alt="Human Resource Management Image"
+                      className="img-fluid"
+                      // style={{ maxWidth: "100%", height: "auto" }}
+                    />
+                    <p className="mt-3 text-center">
+                      Equip your HR team with essential skills in labour laws,
+                      HR policies, digital transformation, workforce planning,
+                      ROI measurement, and more.
+                    </p>
+                  </div>
                 </div>
-              </div>
 
-              <div>
-                <div className="d-flex flex-column align-items-center text-center border border-light p-2 ms-2">
-                  <img
-                    src={course1}
-                    alt="Human Resource Management Image"
-                    className="img-fluid"
-                    // style={{ maxWidth: "100%", height: "auto" }}
-                  />
-                  <p className="mt-3 text-center">
-                    Equip your HR team with essential skills in labour laws, HR
-                    policies, digital transformation, workforce planning, ROI
-                    measurement, and more.
-                  </p>
+                <div>
+                  <div className="d-flex flex-column align-items-center text-center  border  border-3 border-light rounded-3 p-2 ms-2 testimonialresponsive-div">
+                    <img
+                      src={course2}
+                      alt="Leadership & Management Image"
+                      className="img-fluid"
+                    />
+                    <p className="mt-3 text-center">
+                      Master high-performance leadership, build workplace trust,
+                      embrace design thinking, agile leadership, and enhance
+                      Emotional & Social Intelligence (ESI).
+                    </p>
+                  </div>
                 </div>
-              </div>
 
-              <div>
-                <div className="d-flex flex-column align-items-center text-center border border-light p-2 ms-2">
-                  <img
-                    src={course1}
-                    alt="Human Resource Management Image"
-                    className="img-fluid"
-                    // style={{ maxWidth: "100%", height: "auto" }}
-                  />
-                  <p className="mt-3 text-center">
-                    Equip your HR team with essential skills in labour laws, HR
-                    policies, digital transformation, workforce planning, ROI
-                    measurement, and more.
-                  </p>
+                <div>
+                  <div className="d-flex flex-column align-items-center text-center border border-3  border-light p-2 ms-2 rounded-3 testimonialresponsive-div">
+                    <img
+                      src={course3}
+                      alt="Team Building Activities Image"
+                      className="img-fluid"
+                      // style={{ maxWidth: "100%", height: "auto" }}
+                    />
+                    <p className="mt-3 text-center">
+                      Nurture collaboration and personal growth among your teams
+                      through our comprehensive team-building trainings.
+                    </p>
+                  </div>
                 </div>
-              </div>
-             
-            </Slider>
+
+                <div>
+                  <div className="d-flex flex-column align-items-center text-center border border-3 border-light p-2 ms-2 rounded-3 testimonialresponsive-div">
+                    <img
+                      src={course4}
+                      alt="Skills Developement Programs Image"
+                      className="img-fluid"
+                      // style={{ maxWidth: "100%", height: "auto" }}
+                    />
+                    <p className="mt-3 text-center">
+                      Polish in-demand skills, such as, public speaking,
+                      interpersonal communication, giving feedback, time and
+                      task management, and more.
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="d-flex flex-column align-items-center text-center border border-3 border-light p-2 ms-2 rounded-3 testimonialresponsive-div">
+                    <img
+                      src={course5}
+                      alt="Banking, Finance & Treasury Image"
+                      className="img-fluid"
+                      // style={{ maxWidth: "100%", height: "auto" }}
+                    />
+                    <p className="mt-3 text-center">
+                      Know the essentials of Islamic banking, financial
+                      statement analysis, credit management, financial modeling,
+                      treasury operations, and more.
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="d-flex flex-column align-items-center text-center border border-3 border-light p-2 ms-2 rounded-3 testimonialresponsive-div">
+                    <img
+                      src={course6}
+                      alt="Procrument & Supply Chain Image"
+                      className="img-fluid"
+                      // style={{ maxWidth: "100%", height: "auto" }}
+                    />
+                    <p className="mt-3 text-center">
+                      Master best practices in procurement, inventory
+                      management, contract management, procurement compliance,
+                      and more.
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="d-flex flex-column align-items-center text-center border border-3 border-light p-2 ms-2 rounded-3 testimonialresponsive-div">
+                    <img
+                      src={course7}
+                      alt="Quality Management Image"
+                      className="img-fluid"
+                      // style={{ maxWidth: "100%", height: "auto" }}
+                    />
+                    <p className="mt-3 text-center">
+                      Lead quality assurance through six sigma black and green
+                      belts, lean sigma, lean operations management, and
+                      strategic quality management.
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="d-flex flex-column align-items-center text-center border border-3 border-light p-2 ms-2 rounded-3 testimonialresponsive-div">
+                    <img
+                      src={course8}
+                      alt="IT & Excel Image"
+                      className="img-fluid"
+                      // style={{ maxWidth: "100%", height: "auto" }}
+                    />
+                    <p className="mt-3 text-center">
+                      Practice and master advanced Excel with dashboard
+                      creation, Power BI, big data, AI, and other digital
+                      business analytics tools.
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="d-flex flex-column align-items-center text-center border border-3 border-light p-2 ms-2 rounded-3 testimonialresponsive-div">
+                    <img
+                      src={course9}
+                      alt="Sales & Customer Service Image"
+                      className="img-fluid"
+                      // style={{ maxWidth: "100%", height: "auto" }}
+                    />
+                    <p className="mt-3 text-center">
+                      Champion customer-centricity through our telesales and
+                      sales leadership courses along with customer service
+                      specialist course.
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="d-flex flex-column align-items-center text-center border border-3 border-light p-2 ms-2 rounded-3 testimonialresponsive-div">
+                    <img
+                      src={course10}
+                      alt="Risk, Audit & Compliance Image"
+                      className="img-fluid"
+                      // style={{ maxWidth: "100%", height: "auto" }}
+                    />
+                    <p className="mt-3 text-center">
+                      Learn the basics of anti-money laundering, risk
+                      management, and more.
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="d-flex flex-column align-items-center text-center border border-3 border-light p-2 ms-2 rounded-3 testimonialresponsive-div">
+                    <img
+                      src={course11}
+                      alt="Bite-Sized Trainings Image"
+                      className="img-fluid"
+                      // style={{ maxWidth: "100%", height: "auto" }}
+                    />
+                    <p className="mt-3 text-center">
+                      Choose from a list of our ‘Espresso’ learning sessions
+                      that are targeted, activity-based, result-oriented, and
+                      tailored for today’s workforce!
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="d-flex flex-column align-items-center justify-content-center text-center border border-3 border-light p-2 ms-2 rounded-3 testimonialresponsive-div">
+                    <h3
+                      className="mt-3 text-center fw-bold"
+                      style={{ color: "#100AA8" }}
+                    >
+                      AND MUCH MORE …
+                    </h3>
+                  </div>
+                </div>
+              </Slider>
+            </div>
+            <div className="text-center mt-5">
+              <Button
+                className="mt-5 text-center text-white Enquirebutton mb-2 mb-lg-0"
+                style={{ background: "#0d278e" }}
+                onClick={() => {
+                  window.location.href = "#"; // Simulate href="#" behavior
+                }}
+              >
+                Enquire Now
+              </Button>
+            </div>
           </div>
         </div>
 
-        <div className="container mt-5 border border-white ">
-          {/* <div className="row "> */}
+        <div className="container mt-5" id="learner">
           <div
-            className={`row rounded-4 slide-in-left   ${
-              hasViewedSlide.secondElement ? "animate-enquire" : ""
-            }`}
-            style={{ justifyContent: "center" }}
-            ref={myRef2}
-          >
-            <div className="col-12 ">
-              <h1 className="text-center mt-lg-3">
-                <span className="fw-bold ">About the</span>
-                <span className="fw-bold  text-primary"> Course</span>
-              </h1>
-            </div>
-
-            <div className="col-12 col-lg-5 rounded-3 mt-2 mt-lg-4 rounded-3 shadow p-4 small-device-text-wrap">
-              <p className="text-center mt-lg-3">
-                <span className="fw-bold fs-3">Learning </span>
-                <span className="fw-bold fs-3 text-primary">Outcomes</span>
-              </p>
-              <p className="text-start ms-3">
-                You will learn the following after completing the Passenger
-                Ground Services course at WingsWay Training Institute:
-              </p>
-              <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
-                <li className="ms-lg-4 d-flex align-items-start mt-1">
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 flex-shrink-0 mt-1"
-                  />
-                  <div>
-                    <span style={{ fontWeight: "bold" }}>
-                      How Airlines and Airports Work:
-                    </span>{" "}
-                    <span className="d-block d-sm-inline">
-                      Learn how airlines and airports provide passenger services
-                      like check-in and boarding.
-                    </span>
-                  </div>
-                </li>
-                <li className="ms-lg-4 d-flex align-items-start mt-1">
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 flex-shrink-0 mt-1"
-                  />
-                  <div>
-                    <span style={{ fontWeight: "bold" }}>
-                      Passenger Check-In and Boarding:
-                    </span>{" "}
-                    <span className="d-block d-sm-inline">
-                      Understand how passengers and their luggage are checked in
-                      and how they board the airplane, especially those with
-                      special needs.
-                    </span>
-                  </div>
-                </li>
-                <li className="ms-lg-4 d-flex align-items-start mt-1">
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 flex-shrink-0 mt-1"
-                  />
-                  <div>
-                    <span style={{ fontWeight: "bold" }}>
-                      Transportation Rules:
-                    </span>{" "}
-                    <span className="d-block d-sm-inline">
-                      Know the rules for transporting passengers and their
-                      baggage safely.
-                    </span>
-                  </div>
-                </li>
-                <li className="ms-lg-4 d-flex align-items-start mt-1">
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 flex-shrink-0 mt-1"
-                  />
-                  <div>
-                    <span style={{ fontWeight: "bold" }}>
-                      Computer Systems for Travel:
-                    </span>{" "}
-                    <span className="d-block d-sm-inline">
-                      Understand how computer systems manage reservations,
-                      flight departures, and other processes.
-                    </span>
-                  </div>
-                </li>
-                <li className="ms-lg-4 d-flex align-items-start mt-1">
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 flex-shrink-0 mt-1"
-                  />
-                  <div>
-                    <span style={{ fontWeight: "bold" }}>
-                      Latest Passenger Service Technology:
-                    </span>{" "}
-                    <span className="d-block d-sm-inline">
-                      Stay updated on the newest technology used to provide
-                      services at the airports and on flights.
-                    </span>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-5 mt-lg-4 rounded-3 shadow ms-lg-4 p-4">
-              <p className="text-center mt-lg-3">
-                <span className="fw-bold fs-3 ">Course </span>
-                <span className="fw-bold fs-3 text-primary">Content</span>
-              </p>
-
-              <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
-                <li className="ms-lg-3 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 flex-shrink-0 mt-1"
-                  />
-                  Introduction to Airport and Airline Ground Operations
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Computer Reservations and Departure Control System Functions
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Check-In Procedures for Passengers and their Baggage (Airport
-                  and Off-site)
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Conditions of Carriage, Boarding Procedures and Close-Out
-                  Messaging{" "}
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Dangerous Goods Regulations{" "}
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Managing Passenger Interactions{" "}
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Aviation Security Requirements for Passenger and Baggage{" "}
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Enhanced passenger facilitation{" "}
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Future of the Aviation Industry{" "}
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div
-            className={`row mt-3 rounded-4 slide-in-left  ${
+            className={`row  slide-in-left mt-4 align-items-center  ${
               hasViewedSlide.thirdElement ? "animate-enquire" : ""
             }`}
             ref={myRef3}
-            style={{ justifyContent: "center" }}
           >
-            {" "}
-            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-3  rounded-3 shadow  p-4">
-              <p className="text-center mt-lg-3">
-                <span className="fw-bold fs-3 ">Career </span>
-                <span className="fw-bold fs-3 text-primary">Opportunities</span>
+            <div className="col-12 text-center mt-3">
+              <h1 className="fw-bold text-center" style={{ color: "#041271" }}>
+                Our Awards & Recognition
+              </h1>
+            </div>
+            <div className="col-12 col-lg-6 mt-3  mt-lg-3 mt-xxl-5 mb-lg-3 mb-xl-3 mb-xxl-3 justify-content-center border border-white">
+              <p className="text-start mb-lg-3 mb-xl-3 mb-xxl-4 ms-lg-5">
+                At WingsWay, our commitment to excellence has earned us
+                prestigious awards and recognitions, reflecting the trust and
+                impact we've delivered to individuals and organisations
+                worldwide. We are:
               </p>
-
               <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
-                <li className="ms-lg-3 d-flex align-items-start mt-1">
+                <li className="ms-lg-3 d-flex align-items-start mt-1 mb-lg-3 mb-xl-3 mb-xxl-4 ms-lg-5">
                   {" "}
                   <FontAwesomeIcon
                     icon={faCircleCheck}
                     className="text-primary me-2 flex-shrink-0 mt-1"
                   />
-                  Airport Manager
+                  <div>
+                    <span style={{ fontWeight: "bold" }}>KHDA Approved:</span>{" "}
+                    <span className="d-block d-sm-inline">
+                      WingsWay Training Institute is approved and recognised by
+                      the Knowledge and Human Development Authority (KHDA),
+                      ensuring the highest standards of education in Dubai.
+                    </span>
+                  </div>
                 </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Aviation Trainer
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Customs and Immigration Officer
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Ground Handling Coordinator{" "}
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Passenger Service Agent{" "}
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Baggage Handler{" "}
-                </li>
-
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Aircraft Dispatcher{" "}
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Airport Safety Officer{" "}
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Check-In Agent{" "}
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Gate Agent{" "}
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Customer Service Representative{" "}
-                </li>
-              </ul>
-            </div>
-            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-3 rounded-3 shadow ms-lg-4 p-4">
-              <p className="text-center mt-lg-3">
-                <span className="fw-bold fs-3 ">Entry </span>
-                <span className="fw-bold fs-3 text-primary">Qualification</span>
-              </p>
-              <p className="ms-3">
-                This course is suitable for individuals with the following
-                qualifications:
-              </p>
-              <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
-                <li className="ms-lg-3 d-flex align-items-start mt-1">
+                <li className="ms-lg-3 d-flex align-items-start mt-1 mb-lg-3 mb-xl-3 mb-xxl-4 ms-lg-5">
                   {" "}
                   <FontAwesomeIcon
                     icon={faCircleCheck}
                     className="text-primary me-2 flex-shrink-0 mt-1"
                   />
-                  Grade 10 / O-Level / Class 10
+                  <div>
+                    <span style={{ fontWeight: "bold" }}>DET Approved:</span>{" "}
+                    <span className="d-block d-sm-inline">
+                      Approved by the Dubai Department of Economy & Tourism
+                      (DET), which is the principal authority for the
+                      supervision and development of Dubai’s economy and tourism
+                      sectors.
+                    </span>
+                  </div>
                 </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  High school graduates
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Undergraduates
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Postgraduates{" "}
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Working professionals{" "}
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div
-            className={`row mt-3 rounded-4 slide-in-left  ${
-              hasViewedSlide.fourthElement ? "animate-enquire" : ""
-            }`}
-            ref={myRef4}
-            style={{ justifyContent: "center" }}
-          >
-            {" "}
-            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-3  rounded-3 shadow p-4">
-              <p className="text-center mt-lg-3">
-                <span className="fw-bold fs-3 ">Key </span>
-                <span className="fw-bold fs-3 text-primary">Topics</span>
-              </p>
-              <p className="ms-3">
-                Some key topics covered in the Passenger Ground Services course
-                at WingsWay Training Institute:
-              </p>
-              <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
-                <li className="ms-lg-3 d-flex align-items-start mt-1">
+                <li className="ms-lg-3 d-flex align-items-start mt-1 mb-lg-3 mb-xl-3 mb-xxl-5 ms-lg-5">
                   {" "}
                   <FontAwesomeIcon
                     icon={faCircleCheck}
                     className="text-primary me-2 flex-shrink-0 mt-1"
                   />
-                  How airports function
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Guidelines for boarding passengers and baggage
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Dangerous Goods Regulations
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Interacting with passengers{" "}
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  The future of the aviation industry{" "}
+                  <div>
+                    <span style={{ fontWeight: "bold" }}>ISO Certified:</span>{" "}
+                    <span className="d-block d-sm-inline">
+                      WingsWay Training Institute is certified with the
+                      prestigious ISO 9001:2015 by the International
+                      Accreditation Forum (IAF).
+                    </span>
+                  </div>
                 </li>
               </ul>
             </div>
-            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-3 rounded-3 shadow ms-lg-4 p-4">
-              <p className="text-center mt-lg-3">
-                <span className="fw-bold fs-3 ">Learner’s </span>
-                <span className="fw-bold fs-3 text-primary">Profile</span>
-              </p>
-
-              <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
-                <li className="ms-lg-3 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 flex-shrink-0 mt-1"
-                  />
-                  Airline passenger service employees
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Ground handling agents
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Airport operator’s employees
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Anyone wanting to kickstart a career in Passenger Ground
-                  Services and gain global exposure.{" "}
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Customer service professionals{" "}
-                </li>
-              </ul>
+            <div className="col-12 col-lg-6 hover-scale2 mt-3 mt-lg-3 mt-xxl-5 text-center">
+              <img
+                src={award}
+                alt="Award Image"
+                className="img-fluid rounded-3 responsiveAward-img "
+              />
             </div>
-          </div>
-          <div className="text-center mt-5 col-12 m-auto">
-            {/* <Button
-              className="mt-2 text-center text-white Contactbutton mb-2 mb-lg-0"
-              style={{ background: "#0d278e" }}
-              onClick={() => {
-                window.location.href = "#"; // Simulate href="#" behavior
-              }}
-            >
-              Enquire Now
-            </Button> */}
-
-            <button
-              type="button"
-              className="btn btn-lg text-center text-white Contactbutton mb-2 mb-lg-0"
-              onClick={() => {
-                window.location.href = "#"; // Simulate href="#" behavior
-              }}
-            >
-              Enquire Now
-            </button>
           </div>
         </div>
 
         <div className="container mt-5">
           <div
-            className={`row mt-4 rounded-4 slide-in-left  ${
-              hasViewedSlide.fifthElement ? "animate-slide-in" : ""
+            className={`row mt-4 rounded-4 slide-in-left border border-white align-items-center ${
+              hasViewedSlide.fourthElement ? "animate-slide-in" : ""
             }`}
-            ref={myRef5}
-            style={{ justifyContent: "center" }}
+            ref={myRef4}
           >
-            <div className="col-12 ">
-              <h1 className="text-center ">
-                <span className="fw-bold ">Why Choose WingsWay for </span>
-
-                <span className="fw-bold text-primary">
-                  {" "}
-                  Airport Operation Fundamentals ?
-                </span>
+            <div className="col-12 col-lg-6">
+              <h1
+                className="text-start
+               fw-bold"
+                style={{ color: "#041271" }}
+              >
+                Invest in Your Employees, Invest in Your Future.
               </h1>
-            </div>{" "}
-            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-4  rounded-3 shadow p-3">
-              <p className="text-center mt-lg-3">
-                <span className="fw-bold fs-3 ms-0">Recognitions and</span>
-                <span className="fw-bold fs-3 text-primary ">
-                  {" "}
-                  Qualifications:
-                </span>
+              <p className="mt-3">
+                Your employees are your greatest asset. By investing in their
+                growth and development, you're not just improving their skills,
+                but also strengthening your organisation's future. Our training
+                programmes are designed to equip your team with the knowledge
+                and tools they need to perform their best and contribute
+                positively to your company's goals.
               </p>
-              <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
-                <li className="ms-lg-3 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 flex-shrink-0 mt-1"
-                  />
-                  <div>
-                    <span style={{ fontWeight: "bold" }}>IATA Certified:</span>{" "}
-                    <span className="d-block d-sm-inline">
-                      Our courses are recognised by the International Air
-                      Transport Association, ensuring industry relevance and
-                      international recognition.
-                    </span>
-                  </div>
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  <div>
-                    <span style={{ fontWeight: "bold" }}>KHDA Approved:</span>{" "}
-                    <span className="d-block d-sm-inline">
-                      Our courses meet the high standards set by the Knowledge
-                      and Human Development Authority for private education.
-                    </span>
-                  </div>
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  <div>
-                    <span style={{ fontWeight: "bold" }}>
-                      ISO 9001:2015 Certified:
-                    </span>{" "}
-                    <span className="d-block d-sm-inline">
-                      We are committed to quality management and continuous
-                      improvement.
-                    </span>
-                  </div>
-                </li>
-              </ul>
             </div>
-            <div className="col-12 col-md-12 col-lg-5 rounded-3 mt-5 mt-lg-4 rounded-3 shadow ms-lg-4 p-3">
-              <p className="text-center mt-lg-3">
-                <span className="fw-bold fs-3 ms-0">Trusted by </span>
-                <span className="fw-bold fs-3 text-primary ">
-                  Students Worldwide:
-                </span>
-              </p>
-              <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
-                <li className="ms-lg-3 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 flex-shrink-0 mt-1"
-                  />
-                  <div>
-                    <span style={{ fontWeight: "bold" }}>
-                      Diverse Student Base:
-                    </span>{" "}
-                    <span className="d-block d-sm-inline">
-                      Join our community of students from over 80 nationalities.
-                    </span>
-                  </div>
-                </li>
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  <div>
-                    <span style={{ fontWeight: "bold" }}>
-                      Extensive Course Offerings:
-                    </span>{" "}
-                    <span className="d-block d-sm-inline">
-                      Explore over 250 courses designed to enhance your skills
-                      and career prospects.
-                    </span>
-                  </div>
-                </li>
 
-                <li className="ms-lg-2 d-flex align-items-start mt-1">
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faCircleCheck}
-                    className="text-primary me-2 ms-lg-2 flex-shrink-0 mt-1"
-                  />
-                  Choose WingsWay for a trusted and globally recognised
-                  educational experience in airport operation fundamentals.{" "}
-                </li>
-              </ul>
+            <div className="col-12 col-lg-6 text-center">
+              <img
+                src={invest}
+                alt="Invest in Your Employees, Invest in Your Future Image"
+                className="img-fluid text-center responsiveInvest-img"
+              />
             </div>
           </div>
         </div>
 
         <div
           className={` container mt-5 border border-white  rounded-4 slide-in-left   ${
-            hasViewedSlide.sixthElement ? "animate-enquire" : ""
+            hasViewedSlide.fifthElement ? "animate-enquire" : ""
           }`}
-          ref={myRef6}
+          ref={myRef5}
           id="Testimonials"
         >
           <div className="row border-primary ">
             <div className="col-12 text-center mb-4">
-              <h1 className="fw-bold">
-                <span className="fw-bold  ">Hear From Our Happy </span>
-                <span className="fw-bold " style={{ color: "#022E88" }}>
-                  {" "}
-                  Students
-                </span>
+              <h1 className="fw-bold" style={{ color: "rgb(4, 18, 113)" }}>
+                Photos From Our Corporate Trainings
               </h1>
             </div>
           </div>
 
           <Slider
-            {...settings}
-            className="m-0 p-0 col-12 col-md-8 col-lg-8 m-auto"
+            {...settings3}
+            className="m-0 p-0 col-12 col-md-8 col-lg-8 m-auto justify-content-center align-items-center"
           >
             <div>
-              <div className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 testimonialresponsive-div">
-                <h3 className="text-center mt-5">Harriet Nakazibwe </h3>
-                <p className=" mt-3 text-center">
-                  I greatly recommend WingsWay as the best institute for ones’
-                  career buildup. It has been a great experience studying at
-                  WingsWay Institute during the pursuing of my IATA PGSA course.
-                  All thankful and grateful of my trainers, Ma’am Sheetal and
-                  Ma’am Tina in this journey of building my career.
-                </p>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining1}
+                  alt="Corporate Training Image1"
+                  className="img-fluid"
+                />
               </div>
             </div>
             <div>
-              <div className=" p-3 shadow-sm border border-light rounded-3 ms-md-2 ms-lg-4 ms-2 mt-2 testimonialresponsive-div">
-                <h3 className="text-center mt-5">Prateek Pandey</h3>
-                <p className="text-center">
-                  I had completed my PGSA course with them last year. It was a
-                  very comprehensive and useful course and total value for
-                  money! Special thanks to Sheetal ma’am, Tina ma’am, Queena
-                  ma’am, and Cyril sir. I also got a job offer from dnata within
-                  3 months of completing the IATA exam. Interview preparation
-                  was also assisted by my trainers and no extra money was
-                  charged for on the phone advises and free complimentary
-                  sessions from time to time. The best place for aviation
-                  training! WingsWay !
-                </p>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining2}
+                  alt="Corporate Training Image1"
+                  className="img-fluid"
+                />
               </div>
             </div>
             <div>
-              <div className="p-3 shadow-sm border border-light rounded-3 ms-lg-4 ms-2 mt-2 tesreview ">
-                <h3 className="text-center mt-5">Salman Ahmad</h3>
-                <p className="text-center">
-                  The Wingsway Institute was an incredible experience for me. I
-                  had the opportunity to visit their facility and see aircraft
-                  up close.
-                </p>
-                <p className="text-center">
-                  Miss Tina Dey was an exceptional trainer who had a passion for
-                  aviation that was truly infectious. Her patience and
-                  dedication to her students were evident in every lesson she
-                  taught. I learned so much from her and felt confident in my
-                  abilities after training with her. Overall, my experience at
-                  the Wingsway Institute was top-notch. The combination of
-                  excellent facilities, experienced instructors, and
-                  top-of-the-line aircraft made for a truly unforgettable
-                  experience. I would highly recommend this institute to anyone
-                  looking to pursue a career in aviation.
-                </p>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining3}
+                  alt="Corporate Training Image2"
+                  className="img-fluid"
+                />
               </div>
             </div>
             <div>
-              <div className="p-3 shadow-sm border border-light rounded-3 ms-md-2 ms-lg-4 ms-2 mt-2 testimonialresponsive-div">
-                <h3 className="text-center mt-5">Mohammed Anwar</h3>
-                <p className="text-center">
-                  I completed the Passenger Ground Service course at WingsWay
-                  Training Institute in Dubai and had a great experience. The
-                  instructors were knowledgeable, and the curriculum was
-                  practical, covering everything I needed to know for the
-                  industry. The staff were also helpful and supportive
-                  throughout the process. I highly recommend this institute for
-                  anyone looking to enter aviation or related fields.
-                </p>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining4}
+                  alt="Corporate Training Image3"
+                  className="img-fluid"
+                />
               </div>
             </div>
             <div>
-              <div className="p-3 shadow-sm border border-light rounded-3 ms-lg-4 mb-1 ms-2 mt-2 testimonialresponsive-div">
-                <h3 className="text-center mt-md-5 mt-5">Prashnaa Magar</h3>
-                <p className="text-center">
-                  {" "}
-                  I had an amazing experience at WingsWay Training Institute.
-                  The instructors were highly knowledgeable and passionate about
-                  their subjects, making learning both engaging and rewarding.
-                  Ms. Tina was so sweet and supportive. The curriculum at
-                  WingsWay Training Institute is well-designed and
-                  comprehensive, covering all the necessary topics and providing
-                  practical skills. Overall, my time at WingsWay Training
-                  Institute exceeded my expectations, and I would highly
-                  recommend it to anyone looking for best Cabin Crew Courses,
-                  PGSA courses, and a supportive learning environment.
-                </p>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining5}
+                  alt="Corporate Training Image4"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining6}
+                  alt="Corporate Training Image5"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining7}
+                  alt="Corporate Training Image6"
+                  className="img-fluid"
+                />
               </div>
             </div>
 
             <div>
-              <div className="p-3 shadow-sm border border-light rounded-3 ms-lg-4 mb-1 ms-2 mt-2 testimonialresponsive-div">
-                <h3 className="text-center mt-md-5  mt-5">Wanu</h3>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining8}
+                  alt="Corporate Training Image7"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
 
-                <p className="text-center">
-                  {" "}
-                  Did my PGSA course from WingsWay and the amount of love and
-                  support I got from miss Tina, miss Sheetal, and the entire
-                  team of WingsWay was out of the world. They helped me with
-                  each and everything. I also had the opportunity to visit
-                  Fujairah aviation academy where we did our aircraft visit and
-                  learnt how to become an ATC controller, a pilot as well as an
-                  AME. We got a tour of the hangar as well.
-                </p>
-                <p className="text-center">
-                  {" "}
-                  Blessed to have such great trainers who are so dedicated
-                  towards building our future. ❤️
-                </p>
+            {/* <div>
+              <div className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center">
+                <img src={CorporateTraining9} alt="Corporate Training Image8" className="img-fluid" />
+              </div>
+            </div> */}
+
+            <div>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining10}
+                  alt="Corporate Training Image9"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining11}
+                  alt="Corporate Training Image10"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining12}
+                  alt="Corporate Training Image11"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining13}
+                  alt="Corporate Training Image12"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining14}
+                  alt="Corporate Training Image13"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining15}
+                  alt="Corporate Training Image14"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining16}
+                  alt="Corporate Training Image15"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            {/* <div>
+              <div className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center">
+                <img src={CorporateTraining17} alt="Corporate Training Image16" className="img-fluid" />
+              </div>
+            </div> */}
+            <div>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining18}
+                  alt="Corporate Training Image17"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining19}
+                  alt="Corporate Training Image18"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining20}
+                  alt="Corporate Training Image19"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining21}
+                  alt="Corporate Training Image20"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining22}
+                  alt="Corporate Training Image21"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining23}
+                  alt="Corporate Training Image22"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining24}
+                  alt="Corporate Training Image23"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                className=" p-3 shadow-sm border border-2 border-light rounded-3 ms-lg-4 mt-2 ms-2 Trainingsresponsive-div text-center"
+                style={{ alignContent: "center" }}
+              >
+                <img
+                  src={CorporateTraining25}
+                  alt="Corporate Training Image24"
+                  className="img-fluid"
+                />
               </div>
             </div>
           </Slider>
+        </div>
+
+        <div className="container mt-5" id="banner">
+          <div
+            className={`row slide-in-left ${
+              hasViewedSlide.sixthElement ? "animate-slide-in" : ""
+            }`}
+            ref={myRef6}
+          >
+            <div className="col-12 mt-5 text-center">
+              <h1 style={{ color: "rgb(4, 18, 113)" }} className="fw-bold mt-3">
+                Client Reviews
+              </h1>
+            </div>
+            <div className="d-flex justify-content-center">
+              <Slider {...settings3} className="col-12 col-md-8 col-lg-8 mt-4 mt-md-4 mt-lg-4 mt-xl-4 mt-xxl-4">
+                <div>
+                  <div className="p-3 shadow-sm border border-2 border-light rounded-3 text-center reviewresponsive-div mt-xxl-5">
+                    <img
+                      src={Testimonial1}
+                      alt="Review Image1"
+                      className="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className="p-3 shadow-sm border border-2 border-light rounded-3 text-center reviewresponsive-div">
+                    <img
+                      src={Testimonial2}
+                      alt="Review Image2"
+                      className="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className="p-3 shadow-sm border border-2 border-light rounded-3 text-center reviewresponsive-div">
+                    <img
+                      src={Testimonial3}
+                      alt="Review Image3"
+                      className="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className="p-3 shadow-sm border border-2 border-light rounded-3 text-center reviewresponsive-div">
+                    <img
+                      src={Testimonial4}
+                      alt="Review Image4"
+                      className="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className="p-3 shadow-sm border border-2 border-light rounded-3 text-center reviewresponsive-div">
+                    <img
+                      src={Testimonial5}
+                      alt="Review Image5"
+                      className="img-fluid"
+                    />
+                  </div>
+                </div>
+              </Slider>
+            </div>
+       
+          </div>
         </div>
 
         <div className="container-fluid ">
