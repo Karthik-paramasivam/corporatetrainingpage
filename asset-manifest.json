@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/corporatetrainingpage/static/css/main.181c995b.css",
-    "main.js": "/corporatetrainingpage/static/js/main.cb96a2e3.js",
+    "main.css": "/corporatetrainingpage/static/css/main.e6258fc2.css",
+    "main.js": "/corporatetrainingpage/static/js/main.500dc749.js",
     "static/js/488.7e101b22.chunk.js": "/corporatetrainingpage/static/js/488.7e101b22.chunk.js",
     "static/media/CorporateTraining16.jpg": "/corporatetrainingpage/static/media/CorporateTraining16.ead075c02d656cd7ce23.jpg",
     "static/media/Corporatebanner.jpg": "/corporatetrainingpage/static/media/Corporatebanner.e12f71c2617737b0ff06.jpg",
@@ -43,6 +43,7 @@
     "static/media/CorporateTraining22.jpg": "/corporatetrainingpage/static/media/CorporateTraining22.c46a3012aad8ea8a6e14.jpg",
     "static/media/CorporateTraining9.jpg": "/corporatetrainingpage/static/media/CorporateTraining9.a748a4a7ad4378d286e2.jpg",
     "static/media/CorporateTranining8.jpg": "/corporatetrainingpage/static/media/CorporateTranining8.a748a4a7ad4378d286e2.jpg",
+    "static/media/EnquireNow.jpg": "/corporatetrainingpage/static/media/EnquireNow.4520c9297382c059d5e6.jpg",
     "static/media/CorporateTraining12.jpg": "/corporatetrainingpage/static/media/CorporateTraining12.912b5282182b6f130845.jpg",
     "static/media/CorporateTraining23.jpg": "/corporatetrainingpage/static/media/CorporateTraining23.a5302b58547ea5c7e455.jpg",
     "static/media/CorporateTraining11.jpg": "/corporatetrainingpage/static/media/CorporateTraining11.ad6504bb30c3bc62cbbf.jpg",
@@ -62,10 +63,10 @@
     "static/media/Dubal.jpg": "/corporatetrainingpage/static/media/Dubal.a915082fa9cc8c284d55.jpg",
     "static/media/jafza.png": "/corporatetrainingpage/static/media/jafza.26d56dbab89a15197843.png",
     "static/media/WingsWay logo.png": "/corporatetrainingpage/static/media/WingsWay logo.2d38dac4d59df4056f8d.png",
-    "static/media/Upskillanddriveresults.png": "/corporatetrainingpage/static/media/Upskillanddriveresults.8796792abb4bf5ffc35c.png",
     "static/media/NGI.png": "/corporatetrainingpage/static/media/NGI.09aeb150de89fcebb4a3.png",
     "static/media/Footerlogo.png": "/corporatetrainingpage/static/media/Footerlogo.095b840dc5c1b28b4e8b.png",
     "static/media/DSV.jpeg": "/corporatetrainingpage/static/media/DSV.3b673b996194ff96337c.jpeg",
+    "static/media/Upskillanddriveresults2.png": "/corporatetrainingpage/static/media/Upskillanddriveresults2.3c5aeb5ae75ed7940e60.png",
     "static/media/SNOC.jpg": "/corporatetrainingpage/static/media/SNOC.4f6dde4f5cb0e6cfc5f7.jpg",
     "static/media/logo.svg": "/corporatetrainingpage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/slick.svg": "/corporatetrainingpage/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -73,12 +74,12 @@
     "static/media/slick.ttf": "/corporatetrainingpage/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/corporatetrainingpage/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/corporatetrainingpage/index.html",
-    "main.181c995b.css.map": "/corporatetrainingpage/static/css/main.181c995b.css.map",
-    "main.cb96a2e3.js.map": "/corporatetrainingpage/static/js/main.cb96a2e3.js.map",
+    "main.e6258fc2.css.map": "/corporatetrainingpage/static/css/main.e6258fc2.css.map",
+    "main.500dc749.js.map": "/corporatetrainingpage/static/js/main.500dc749.js.map",
     "488.7e101b22.chunk.js.map": "/corporatetrainingpage/static/js/488.7e101b22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.181c995b.css",
-    "static/js/main.cb96a2e3.js"
+    "static/css/main.e6258fc2.css",
+    "static/js/main.500dc749.js"
   ]
 }
