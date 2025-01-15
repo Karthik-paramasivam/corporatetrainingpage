@@ -192,7 +192,14 @@ html {
 .terminalresponsive-container {
   /* backdrop-filter: 0px;
   background: rgba(87, 87, 87, 0.4); */
-  width: 100%;
+  width: 80%;
+  
+}
+
+@media (max-width: 1024px) {
+  .terminalresponsive-container {
+    width: 95%;
+  }
 }
 
 /* For small and medium devices */

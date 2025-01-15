@@ -9,7 +9,7 @@ import "./App.css";
 import { useInView } from "react-intersection-observer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo2 from "./Images/Logo2.png";
-import Upskillanddriveresults from "./Images/Upskillanddriveresults.png";
+import Upskillanddriveresults from "./Images/Upskillanddriveresults2.png";
 import Footerlogo from "./Images/Footerlogo.png";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import ADNOC from "./Images/ADNOC.png";
@@ -77,7 +77,7 @@ import Testimonial2 from "./Images/Testimonial2.png";
 import Testimonial3 from "./Images/Testimonial3.png";
 import Testimonial4 from "./Images/Testimonial4.png";
 import Testimonial5 from "./Images/Testimonial5.png";
-
+import Enquire from "./Images/EnquireNow.jpg";
 import {
   faCheck,
   faCircleCheck,
@@ -95,30 +95,30 @@ const items = [
   {
     key: "1",
     label: (
-      <h4 className="accordion-label">Personalised Training Just for You</h4>
+      <h4 className="accordion-label" style={{color:"#f46a2f"}}>Personalised Training Just for You</h4>
     ),
     children: <p style={{ fontSize: "18px" }}>{text1}</p>,
   },
   {
     key: "2",
-    label: <h4 className="accordion-label">Expert-Led Training</h4>,
+    label: <h4 className="accordion-label" style={{color:"#f46a2f"}}>Expert-Led Training</h4>,
     children: <p style={{ fontSize: "18px" }}>{text2}</p>,
   },
   {
     key: "3",
-    label: <h4 className="accordion-label">Real-World Simulations</h4>,
+    label: <h4 className="accordion-label" style={{color:"#f46a2f"}}>Real-World Simulations</h4>,
     children: <p style={{ fontSize: "18px" }}>{text3}</p>,
   },
   {
     key: "4",
     label: (
-      <h4 className="accordion-label">Access to Learning Management System</h4>
+      <h4 className="accordion-label" style={{color:"#f46a2f"}}>Access to Learning Management System</h4>
     ),
     children: <p style={{ fontSize: "18px" }}>{text4}</p>,
   },
   {
     key: "5",
-    label: <h4 className="accordion-label">Tech-Driven Learning</h4>,
+    label: <h4 className="accordion-label" style={{color:"#f46a2f"}}>Tech-Driven Learning</h4>,
     children: <p style={{ fontSize: "18px" }}>{text5}</p>,
   },
 ];
@@ -129,7 +129,6 @@ export default function Home() {
   const [phoneNumber, setPhoneNumber] = useState(""); // State for phone number input
   const [countryCode, setCountryCode] = useState("+971"); // Default country code
   const { Option } = Select;
-
 
   const onChange = (key) => {
     console.log(key);
@@ -599,9 +598,9 @@ export default function Home() {
 
       <div className="container-fluid">
         <div className="container-fluid m-0 p-0">
-          <div className="row">
+          <div className="row ">
             <div
-              className="col-12 dynamic-height d-flex align-items-center justify-content-center"
+              className="col-12 dynamic-height d-flex align-items-center justify-content-center "
               style={{
                 position: "relative",
                 height: "800px",
@@ -622,10 +621,10 @@ export default function Home() {
                   zIndex: -1, // Keep the background behind the content
                 }}
               ></div>
-              <div className="row d-flex align-items-center justify-content-center rounded-5 p-1 terminalresponsive-container m-auto">
+              <div className="row d-flex align-items-center justify-content-center rounded-5 p-1 terminalresponsive-container">
                 {/* First Column with Animation */}
                 <motion.div
-                  className="col-12 col-lg-6 mt-lg-5 mt-xl-5 mt-xxl-5 m-auto"
+                  className="col-12 col-lg-6 mt-lg-5 mt-xl-5 mt-xxl-5 "
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ duration: 1.5 }}
@@ -637,10 +636,10 @@ export default function Home() {
                   />
 
                   <h1
-                    className="text-white ms-lg-5"
+                    className="text-white text-start mt-3 align-items-center justify-content-center"
                     style={{
-                      fontSize: "55px",
-                      fontWeight: "700",
+                      fontSize: "46px",
+                      fontWeight: "600",
                       wordBreak: "break-word",
                     }}
                   >
@@ -648,12 +647,12 @@ export default function Home() {
                   </h1>
                   <h1
                     style={{
-                      fontSize: "55px",
-                      fontWeight: "700",
+                      fontSize: "46px",
+                      fontWeight: "600",
                       wordBreak: "break-word",
                       color: "rgb(7, 33, 164)",
                     }}
-                    className="ms-lg-5"
+                    className="text-start"
                   >
                     TRAININGS
                   </h1>
@@ -783,13 +782,22 @@ export default function Home() {
                     >
                       <Select placeholder="Select your option">
                         {/* <Option value="cilt_level_1">CILT Level 1</Option> */}
-                        <Option value="Human Resources Programs">Human Resources Programs</Option>
-                        <Option value="Leadership & Management Programs">Leadership & Management Programs</Option>
+                        <Option value="Human Resources Programs">
+                          Human Resources Programs
+                        </Option>
+                        <Option value="Leadership & Management Programs">
+                          Leadership & Management Programs
+                        </Option>
                         {/* <Option value="cilt_level_4">CILT Level 4</Option> */}
-                        <Option value="Skill Development Programs">Skill Development Programs</Option>
-                        <Option value="Team Building Programs">Team Building Programs</Option>
-                        <Option value="Banking, Finance & Treasury Programs">Banking, Finance & Treasury Programs</Option>
-
+                        <Option value="Skill Development Programs">
+                          Skill Development Programs
+                        </Option>
+                        <Option value="Team Building Programs">
+                          Team Building Programs
+                        </Option>
+                        <Option value="Banking, Finance & Treasury Programs">
+                          Banking, Finance & Treasury Programs
+                        </Option>
                       </Select>
                     </Form.Item>
 
@@ -822,7 +830,7 @@ export default function Home() {
             hasViewedSlide.zeroElement ? "animate-slide-in" : ""
           }`}
           ref={myRef0}
-          id="Testimonials"
+          id="Employees"
         >
           <div className="row border-primary">
             <div className="col-12 text-center">
@@ -1082,7 +1090,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="container mt-5" id="banner">
+        <div className="container mt-5" id="Training">
           <div
             className={`row slide-in-left  ${
               hasViewedSlide.secondElement ? "animate-slide-in" : ""
@@ -1285,20 +1293,20 @@ export default function Home() {
               </Slider>
             </div>
             <div className="text-center mt-5">
-              <Button
-                className="mt-5 text-center text-white Enquirebutton mb-2 mb-lg-0"
+              <button
+                className="mt-5 btn btn-lg text-center text-white Enquirebutton mb-2 mb-lg-0"
                 style={{ background: "#0d278e" }}
                 onClick={() => {
                   window.location.href = "#"; // Simulate href="#" behavior
                 }}
               >
                 Enquire Now
-              </Button>
+              </button>
             </div>
           </div>
         </div>
 
-        <div className="container mt-5" id="learner">
+        <div className="container mt-5" id="Awards">
           <div
             className={`row  slide-in-left mt-4 align-items-center  ${
               hasViewedSlide.thirdElement ? "animate-enquire" : ""
@@ -1722,7 +1730,7 @@ export default function Home() {
           </Slider>
         </div>
 
-        <div className="container mt-5" id="banner">
+        <div className="container mt-5" id="Reviews">
           <div
             className={`row slide-in-left ${
               hasViewedSlide.sixthElement ? "animate-slide-in" : ""
@@ -1735,7 +1743,10 @@ export default function Home() {
               </h1>
             </div>
             <div className="d-flex justify-content-center">
-              <Slider {...settings3} className="col-12 col-md-8 col-lg-8 mt-4 mt-md-4 mt-lg-4 mt-xl-4 mt-xxl-4">
+              <Slider
+                {...settings3}
+                className="col-12 col-md-8 col-lg-8 mt-4 mt-md-4 mt-lg-4 mt-xl-4 mt-xxl-4"
+              >
                 <div>
                   <div className="p-3 shadow-sm border border-2 border-light rounded-3 text-center reviewresponsive-div mt-xxl-5">
                     <img
@@ -1783,10 +1794,46 @@ export default function Home() {
                 </div>
               </Slider>
             </div>
-       
           </div>
         </div>
 
+        <div className="container mt-5 " id="learner">
+          <div className="m-0 p-0 mt-5 border border-white">
+          <div
+            className={`row p-3 slide-in-left mt-5 align-items-center border border-light  shadow ${
+              hasViewedSlide.seventhElement ? "animate-enquire" : ""
+            }`}
+            ref={myRef7}
+          >
+           
+            <div className="col-12 col-lg-6 mt-4 mt-lg-4 mt-xxl-0 mb-lg-3 mb-xl-3 mb-xxl-3 justify-content-center border border-white ps-5">
+              <h1 className="text-start fw-bold" style={{color:"#041271"}}>Enquire Now
+              </h1>
+              <p className="text-start mt-3">
+              Are you ready to transform your workforce? Our customised corporate training programmes can improve your team's skills, increase productivity, and nurture leadership. Contact our Training Solutions Specialists today!
+              </p>
+              <button
+                className="mt-xxl-5 btn btn-lg text-center text-white Enquirebutton"
+                style={{ background: "#0d278e" }}
+                onClick={() => {
+                  window.location.href = "#"; // Simulate href="#" behavior
+                }}
+              >
+                Enquire Now
+              </button>
+            </div>
+            <div className="col-12 col-lg-6 hover-scale2 mt-3 mt-lg-5 mt-xl-5 mt-xxl-5 text-center">
+              <img
+                src={Enquire}
+                alt="Award Image"
+                className="img-fluid rounded-3 Enquire-img "
+                style={{width:"60%"}}
+              />
+            </div>
+          </div>
+          </div>
+        </div>
+            
         <div className="container-fluid ">
           <div className="row">
             <div className="col-12">
@@ -1820,23 +1867,32 @@ export default function Home() {
               />
             </div>
 
-            <div className="col-12 col-md-12 col-lg-2 text-center mt-lg-2 text-lg-center ">
-              <a href="#coursediscription" className="footer-link">
-                <span>Course Description</span>
-              </a>
-            </div>
+         
 
             <div className="col-12 col-md-12 col-lg-2 mt-3 mt-md-3 text-center mt-lg-2 text-lg-center ">
-              <a href="#banner" className="footer-link">
-                <span>About the course</span>
+              <a href="#Employee" className="footer-link">
+                <span>Empowered Employees</span>
               </a>
             </div>
 
             <div className="col-12 col-md-12 col-lg-2 mt-3 mt-md-3 text-center mt-lg-2 text-lg-center">
-              <a href="#Testimonials" className="footer-link">
-                <span>Testimonial</span>
+              <a href="#Training" className="footer-link">
+                <span>Corporate Training Programs</span>
               </a>
             </div>
+
+            <div className="col-12 col-md-12 col-lg-2 mt-3 mt-md-3 text-center mt-lg-2 text-lg-center">
+              <a href="#Awards" className="footer-link">
+                <span>Awards & Recognition</span>
+              </a>
+            </div>
+
+            <div className="col-12 col-md-12 col-lg-2 mt-3 mt-md-3 text-center mt-lg-2 text-lg-center">
+              <a href="#Reviews" className="footer-link">
+                <span>Client Reviews</span>
+              </a>
+            </div>
+
             <div
               className="row "
               style={{ backgroundColor: "#0a142f", color: "white" }}
