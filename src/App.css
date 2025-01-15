@@ -97,16 +97,16 @@
 .Contactbutton {
   transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
   color: white !important;
-  background-color: #f46a2f !important;
-  border: 1px solid #f46a2f !important;
+  background-color: #0d278e !important;
+  border: 1px solid #0d278e !important;
   /* padding: 20px !important; */
 
 }
 
 button.Contactbutton:hover {
   background-color: white !important;
-  color: #f46a2f !important;
-  border: 1px solid #f46a2f
+  color: #007dc0 !important;
+  border: 1px solid #007dc0 !important;
 }
 
 .Submitbutton {
@@ -327,16 +327,16 @@ height: 820px;
 .Enquirebutton {
   transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
   color: white !important;
-  background-color: #F46A2F !important;
-  border: 1px solid #F46A2F !important;
+  background-color: #0d278e !important;
+  border: 1px solid #0d278e !important;
   /* padding: 20px !important; */
 
 }
 
 button.Enquirebutton:hover {
   background-color: white !important;
-  color: #F46A2F!important;
-  border: 1px solid #F46A2F
+  color: #007dc0 !important;
+  border: 1px solid #007dc0 !important;
 }
 
 .responsiveAward-img {
